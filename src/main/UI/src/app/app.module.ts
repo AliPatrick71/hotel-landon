@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import {HashLocationStrategy, LocationStrategy} from "@angular/common";
+import { PresentationComponent } from './presentation.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PresentationComponent
   ],
   imports: [
     BrowserModule,
