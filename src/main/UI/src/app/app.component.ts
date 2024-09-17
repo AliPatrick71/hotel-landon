@@ -15,6 +15,11 @@ import {map} from "rxjs/operators";
 })
 export class AppComponent implements OnInit{
 
+
+  priceUSD = 50; // Example price, you can dynamically fetch this
+  priceCAD = 30; // Same value for CAD as conversion isn't required
+  priceEUR = 20; // Same value for EUR as conversion isn't required
+
   constructor(private httpClient:HttpClient){}
 
   private baseURL:string='http://localhost:8080';
